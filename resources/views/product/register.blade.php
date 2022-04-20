@@ -25,10 +25,7 @@
     <td>quantity:</td>
         <td><input type="quantity"name="quantity"id="quantity" placeholder="Enter quantity"> </td>
 </tr>
-<tr>
-    <td>Expire date:</td>
-        <td><input type="exp"name="exp"id="exp" placeholder="Enter expire date"> </td>
-</tr>
+
 </table>
 </form>
 </center>
