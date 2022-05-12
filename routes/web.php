@@ -21,4 +21,3 @@ Route::post('product.register',[ProductController::class,'store'])->name('produc
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
