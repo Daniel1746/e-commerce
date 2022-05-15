@@ -60,6 +60,6 @@ public function edit($id)
  public function get_by_id($id)
  {
   $product = product::where('id', $id)->first();
-  return view('product.search', compact('product'));
+  return view('product.get_by_id', compact('product'));
   }
 }

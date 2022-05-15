@@ -34,4 +34,4 @@ Route::get('/product/list', [ProductController::class, 'get_all'])->name('produc
 Route::get('/product/edit/{id}', [ProductController::class, 'edit']);
 Route::post('/product/update',[ProductController::class,'update'])->name('product/update');
 Route::get('/product/delete/{id}', [ProductController::class, 'delete']);
-Route::get('/product/search/{id}', [ProductController::class, 'get_by_id']);
+Route::get('/product/get_by_id/{id}', [ProductController::class, 'get_by_id']);
